@@ -23,7 +23,7 @@ void main() {
     var aiMoveString;
     switch (aiMove) {
       case 0:
-        aiMoveString = Options.rock;
+        aiMoveString = Options.rock.name;
         break;
       case 1:
         aiMoveString = Options.paper;
